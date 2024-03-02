@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;  
+    border: solid red 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+.nav-bar{
+    display: flex;
+    display: row;
+    justify-content: space-between;
+    background-color: #EEEEEEEE;
+    border-bottom: black 1px solid;
+}
+
+.nav-drip{
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: "Hina Mincho", serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.right-side{
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    margin-right: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page-one{
+    display: flex;
+}
+
+.left-side-one{
+    display: flex;
+    padding: 80px;
+}
+
+.image-one{
+    width: 800px;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.right-side-one{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 25px;
+    background-color: #F4F4EE;
+    padding-bottom: 20px;
+}
+
+.dropping-text{
+    font-family: "Inconsolata", monospace;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+.jordan-text{
+    font-family: "Inconsolata", monospace;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.first-button{
+    font-family: "Inconsolata", monospace;
+    margin-bottom: 50px;
+    background-color: #013592;
+    height: 64px;
+    width: 430px;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.listed-items{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 1px;
+}
+
+.listed-shoes{
+    width: 250px;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shoe-boxes{
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: baseline;
+    align-items: baseline;
+    border: solid black 1px;
+    gap: 100px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.box-text{
+    margin-left: 36px;
+    font-family: "Inconsolata", monospace;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
