@@ -39,6 +39,7 @@ a {
 
 .main-page-one{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .left-side-one{
@@ -123,4 +124,79 @@ a {
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.main-page-two{
+    display: flex;
+
+}
+
+/*test for rotated text IGNORE*/
+.test {
+    transform: rotate(90deg);
+    color: rgb(0, 0, 0);
+}
+
+
+.footer-one {
+    display: flex;
+    background-color:rgba(30, 30, 30, 0.95);
+    color: #F4F4EE;
+    font-family: "Inconsolata", monospace;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.footer-one-elements{
+    display: flex;
+    align-items: space-between;
+
+}
+
+.footer-two{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #242424;
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+
+.right-most-element{
+    display: inline-flex;
+    align-items: baseline;
+    gap: 20px;
+
+
+}
+
+.footer-button{
+    border: black;
+    border-radius: 30px;
+    background-color: #013592;
+    color: white;
+    padding: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left:20px ;
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.rotated-text {
+    display: flex;
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    white-space: nowrap;
+    position: absolute;
+    color: #242424;
+    
 }
