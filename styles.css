@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;  
-    border: solid red 1px;
+    /*border: solid red 1px;*/
 }
 
 a {
@@ -185,11 +185,7 @@ a {
 }
 
 
-.container {
-    display: flex;
-    align-items: center;
-    width: max-content;
-}
+
 
 .rotated-text {
     display: flex;
@@ -199,4 +195,10 @@ a {
     position: absolute;
     color: #242424;
     
+}
+
+
+video{
+    width:100%;
+    height: auto;
 }
